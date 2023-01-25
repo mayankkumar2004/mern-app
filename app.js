@@ -1,7 +1,7 @@
 
 
 const mongoose = require('mongoose');
-const hostname="0.0.0.0";
+
 mongoose.connect('mongodb+srv://mkrjha1970:tigK0uQvV9tJYRR5@customer.filp2bq.mongodb.net/?retryWrites=true&w=majority')
   .then(() => console.log('Connected!'));
 
